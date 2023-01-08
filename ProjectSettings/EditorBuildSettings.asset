@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/MaxIceFlameTemplate/MainMenu.unity
     guid: 0173b4040e9f38d4990c0d27bc6a2d7c
   - enabled: 1
     path: Assets/MaxIceFlameTemplate/Levels/SampleScene.unity
     guid: ea88d3e1b7e1aa941b437800f5b1c77f
+  - enabled: 1
+    path: Assets/MaxIceFlameTemplate/Levels/Hill.unity
+    guid: 82344131350496c4c9b47da275caf1c4
   m_configObjects: {}
