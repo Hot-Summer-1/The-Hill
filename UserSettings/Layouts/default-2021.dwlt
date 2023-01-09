@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: "\u573A\u666F"
+  m_Title: "\u6E38\u620F"
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 112
+  controlID: 123
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,22 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MaxIceFlameTemplate/BasicObjects/Materials
+    - Assets/MaxIceFlameTemplate/BasicObjects/Audios
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MaxIceFlameTemplate/BasicObjects/Materials
+  - Assets/MaxIceFlameTemplate/BasicObjects/Audios
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\The-Hill
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 7c580000
-    m_LastClickedID: 22652
-    m_ExpandedIDs: 000000007058000072580000745800008058000000ca9a3bffffff7f
+    m_SelectedIDs: cc590000
+    m_LastClickedID: 22988
+    m_ExpandedIDs: 000000007a5800007c5800007e58000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000705800007258000074580000
+    m_ExpandedIDs: 000000007a5800007c5800007e580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -453,7 +453,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 398.25
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -491,23 +491,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f646ffffc0f8ffffdcf8ffffe6f8ffffeef8fffff2f8fffffcf8ffff06f9ffff0ef9ffff16f9ffff22f9ffff2af9ffff32f9ffff3af9ffff42f9ffff54f9ffff5cf9ffff60f9ffff64f9ffff6cf9ffff70f9ffff74f9ffff7af9ffffc2f9ffff12fbffff16fbffff1efbffff26fbffff76530000825300008e5300009a530000a2530000b0530000bc530000c8530000dc530000de530000e4530000f2530000fa5300000454000010540000
-      m_LastClickedID: 21520
-      m_ExpandedIDs: e6f8fffff2f8fffffcf8ffff16f9ffff32f9ffff60f9ffff64f9ffff70f9ffff74f9ffff7af9ffff12fbffff16fbffff28fbffff9a530000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 26b9ffff76b9ffff72bdffff7ebdffff08d0ffff58d0ffff5cd4ffff68d4ffff86f4ffff30fbffff925300003e5b0000be5b0000285c00007c5c0000ba8b0000268c0000788c0000c68c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Trigger
-        m_OriginalName: Trigger
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -47370
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -798,9 +798,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18.673416, y: -0.5, z: 11.47578}
+    m_Target: {x: 269.15625, y: 156.41423, z: 0}
     speed: 2
-    m_Value: {x: 18.673416, y: -0.5, z: 11.47578}
+    m_Value: {x: 269.15625, y: 156.41423, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -823,11 +823,19 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
       m_Fade:
         m_Target: 1
         speed: 2
@@ -835,25 +843,17 @@ MonoBehaviour:
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.7071067, y: -0.00000015289186, z: 0, w: 0.7071069}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.1237245
+    m_Target: 326.0736
     speed: 2
-    m_Value: 6.1237245
+    m_Value: 326.0736
   m_Ortho:
     m_Target: 1
     speed: 2
